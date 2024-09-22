@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafael de Oliveira</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="bg-primary text-white p-3">
+    <div class="container">
+      <h1>Rafael de Oliveira</h1>
+      
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main>
+    <div class="container my-5">
+      
+      <section class="p-5 bg-light rounded">
+        <h2 class="text-primary">Seção 1: Introdução</h2>
+        <p>
+          Esta é a primeira seção da minha página web. Aqui você pode adicionar um texto introdutório que explica sobre o conteúdo do seu site.
+        </p>
+      </section>
+
+      
+      <section class="p-5 my-4 bg-secondary text-white rounded">
+        <h2>Seção 2: Sobre Mim</h2>
+        <p>
+          Nesta seção, Falo um pouco sobre mim, os serviços oferecidos e outros detalhes importantes.
+        </p>
+      </section>
+
+      
+      <section class="p-5 bg-light rounded">
+        <h2 class="text-primary">Seção 3: Contato</h2>
+        <p>
+          Entre em contato comigo para mais informações. Utilize o formulário de contato para enviar uma mensagem diretamente para nossa equipe.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  
+  <footer class="bg-dark text-white text-center p-3 ">
+    <div class="container">
+      <p>&copy; <span id="anoAtual"></span> Rafael de Oliveira. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  <script>
+    document.getElementById('anoAtual').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
